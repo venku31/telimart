@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_events_in_timeline": 1,
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:iwo_number",
  "creation": "2025-12-11 20:57:05.013593",
@@ -84,7 +85,7 @@
    "link_fieldname": "custom_iwo_no"
   }
  ],
- "modified": "2025-12-14 21:30:21.863422",
+ "modified": "2025-12-14 21:57:49.495347",
  "modified_by": "Administrator",
  "module": "Telimart",
  "name": "IWO Number",
