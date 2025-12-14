@@ -1,0 +1,169 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_rename": 1,
+ "autoname": "field:iwo_number",
+ "creation": "2025-12-11 20:57:05.013593",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "iwo_number",
+  "description",
+  "column_break_dfiz",
+  "date",
+  "section_break_xigy",
+  "activity_log",
+  "team_members_tab",
+  "team_members"
+ ],
+ "fields": [
+  {
+   "fieldname": "iwo_number",
+   "fieldtype": "Data",
+   "label": "IWO Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_xigy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "activity_log",
+   "fieldtype": "HTML",
+   "label": "Discussion"
+  },
+  {
+   "fieldname": "column_break_dfiz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "team_members_tab",
+   "fieldtype": "Tab Break",
+   "label": "Team Members"
+  },
+  {
+   "fieldname": "team_members",
+   "fieldtype": "Table",
+   "label": "Team Members",
+   "options": "IWO Team Member"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Sales Order",
+   "link_fieldname": "custom_iwo_no"
+  },
+  {
+   "link_doctype": "Sales Invoice",
+   "link_fieldname": "custom_iwo_no"
+  },
+  {
+   "link_doctype": "Purchase Order",
+   "link_fieldname": "custom_iwo_no"
+  },
+  {
+   "link_doctype": "Purchase Receipt",
+   "link_fieldname": "custom_iwo_no"
+  },
+  {
+   "link_doctype": "Material Request",
+   "link_fieldname": "custom_iwo_no"
+  }
+ ],
+ "modified": "2025-12-14 21:30:21.863422",
+ "modified_by": "Administrator",
+ "module": "Telimart",
+ "name": "IWO Number",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Projects Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Projects User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Master Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "protect_attached_files": 1,
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
